@@ -1,0 +1,28 @@
+%YAML 1.2
+---
+title: "Hi!\nI'm Silvan"
+icons:
+  - path: "android.svg"
+  - path: "kotlin.svg"
+  - path: "angular.svg"
+  - path: "dotnet.svg"
+portrait_path: "silvan.png"
+description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. "
+title_projects: "Projects"
+projects:
+  - image_path: "asdf.png"
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
+  - image_path: "asdf.png"
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
+  - image_path: "asdf.png"
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
+title_career: "Career"
+careers:
+  - label: "Today"
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
+  - label: "2023"
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
+  - label: "2022"
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
+  - label: "2021"
+    text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
