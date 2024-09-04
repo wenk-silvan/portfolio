@@ -1,1 +1,14 @@
-<p>career works!</p>
+<div class="container max-w-screen-lg mx-auto flex flex-col">
+    <div class="font-title text-5xl pb-12 self-center">Career</div>
+    @for (entry of career; track entry; let idx = $index) {
+        <div class="flex flex-row">
+            <div class="md:w-1/6 flex flex-col items-center">
+                <div class="font-title text-xl">{{ entry.label }}</div>
+                @if (idx < career.length - 1) {
+                    <div class="my-8 border-l-2 h-16 border-dashed border-white"></div>
+                }
+            </div>
+            <div class="md:w-5/6 ps-8 text-xl">{{ entry.text }}</div>
+        </div>
+    }
+</div>
