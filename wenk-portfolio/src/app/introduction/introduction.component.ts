@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Introduction } from './introduction.model';
+import { AppData } from '../app-data.model';
 
 @Component({
   selector: 'introduction',
@@ -8,5 +10,7 @@ import { Component } from '@angular/core';
   styleUrl: './introduction.component.css'
 })
 export class IntroductionComponent {
+
+  @Input() data: Introduction = new Introduction()
 
 }
