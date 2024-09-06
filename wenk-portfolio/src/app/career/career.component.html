@@ -1,0 +1,14 @@
+<div class="container max-w-screen-lg mx-auto flex flex-col">
+    <div class="font-title text-5xl pb-12 self-center">{{ data.title }}</div>
+    @for (entry of data.career; track entry; let idx = $index) {
+        <div class="flex flex-row flex-wrap md:flex-nowrap justify-center">
+            <div class="md:w-1/6 flex flex-col items-center">
+                <div class="font-title text-xl pb-4 md:pb-0">{{ entry.label }}</div>
+                @if (idx < data.career.length - 1) {
+                    <div class="hidden md:block my-4 border-l-2 h-20 border-dashed border-white"></div>
+                }
+            </div>
+            <div class="md:w-5/6 pb-8 md:ps-8 text-xl">{{ entry.text }}</div>
+        </div>
+    }
+</div>

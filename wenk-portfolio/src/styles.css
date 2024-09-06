@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Alice";
+        src: url(./fonts/Alice-Regular.ttf) format("ttf");
+    }
+    @font-face {
+        font-family: "Jost";
+        src: url(./fonts/Jost-VariableFont_wght.ttf) format("ttf");
+    }
+}
