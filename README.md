@@ -1,27 +1,34 @@
-# WenkPortfolio
+# Portfolio of Silvan Wenk
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
+Hello my friend, thank you for dropping by. I realized this website as a little side-project, don't expect big tech and great changes all the time. Anyway, the website was built with Angular 18, TailwindCSS and ExpressJS. All the data is stored in a yaml file as you might have already seen.
 
-## Development server
+## Changelog
+- v1.0.1: Adds readme, improve image aspect ratios and improve styling
+- v1.0.0: Adds proper text and improves layout
+- v0.1.0: Basic layout and styling
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Run locally
+To run the project locally, make sure to install the Angular CLI and NodeJS. Also, there are a few code changes necessary:
+1. functions/index.js: Change line 10 to 'origin: "http://localhost:4200",'
+2. functions/index.js: Change line 29 to 'app.listen(port, () => {
+    console.log("App listening on port ", port)
+})'
+3. src/app/api.service.ts: Change line 8 to 'baseUrl = "http://localhost:3000/"'
 
-## Code scaffolding
+## Backend Developement server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Navigate to functions/ and run `node index.js`
 
-## Build
+### Frontend Development server
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Navigate to project root and run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Running unit tests
+## Deploy
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Make sure you are logged into your Firebase CLI.
+2. Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Run `firebase deploy`
 
-## Running end-to-end tests
+## Author
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+The code was written 100% by me, silvan.wenk@gmail.com. Please contact me if you have any questions or if you just want to get in touch.
