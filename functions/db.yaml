@@ -8,24 +8,130 @@ introduction:
     - "assets/angular.svg"
     - "assets/dotnet.svg"
   portrait_path: "assets/portrait.jpg"
-  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. "
+  description: "Welcome to my website, here are some facts about me. As an experienced Android developer, I love taking on challenges and exploring new things. I believe in the power of teamwork and diversity, both in my work and personal life. Feedback is a chance to learn and grow, and I'm always eager to expand my skills, not only as an engineer. Through over 6 years of writing software in finance, healthcare, mobility, and digital identification, I gained valuable experience that led me to becoming a proficient developer. If you are interested in doing business, please reach out to me - I'm ready to bring my expertise and passion to your team."
 projects:
   title: Projects
   projects: 
-    - image_path: "https://st.depositphotos.com/2274151/4841/i/450/depositphotos_48410095-stock-photo-sample-blue-square-grungy-stamp.jpg"
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
-    - image_path: "https://st.depositphotos.com/2274151/4841/i/450/depositphotos_48410095-stock-photo-sample-blue-square-grungy-stamp.jpg"
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
-    - image_path: "https://st.depositphotos.com/2274151/4841/i/450/depositphotos_48410095-stock-photo-sample-blue-square-grungy-stamp.jpg"
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
+    - image_path: "assets/helsana.png"
+      title: "Helsana+ Bonus Programme, Helsana Versicherungen"
+      skills: 
+        - "Android SDK"
+        - "MVVM"
+        - "Jetpack Compose"
+        - "Geolocation"
+        - "Maps SDK"
+        - "Azure Cloud Services"
+      text: "Implementation and maintenance of a health and sport app. Including new features with maps, geofencing, migrating from MVP to MVVM and integrating jetpack compose."
+    
+    - image_path: "assets/lgt.png"
+      title: "SmartBanking App, LGT Private Banking"
+      skills: 
+        - "Android SDK"
+        - "Jetpack Compose"
+        - "Regula Document Reader SDK"
+      text: "Maintenance, implementation and testing of mobile banking app which acts as a WebView wrapper. Migration to navigation component, integration of Jetpack Compose and feature lead for onboarding flow."
+    
+    - image_path: "assets/tim.png"
+      title: "ID Check SDK, ti&m AG"
+      skills: 
+        - "Android SDK"
+        - "Jetpack Compose"
+        - "Git Submodules"
+      text: "Maintenance and feature implementation of mobile SDK which performs online identification with document scanning, liveness checks, address resolution for several clients in Switzerland."
+    
+    - image_path: "assets/bjb.png"
+      title: "Digital Onboarding Assistant, Bank Julius Bär"
+      skills: 
+        - "Android SDK"
+      text: "Maintenance of a form-based app to digitally identify new clients."
+    
+    - image_path: "assets/clevercircles.png"
+      title: "Clevercircles App, Bank CIC"
+      skills: 
+        - "Android SDK"
+        - "ti&m Security Suite"
+      text: "Maintenance of Bank CIC's digital asset management app. Users can have their opinion validated via self-selected trusted persons or the clevercircles community."
+    
+    - image_path: "assets/lukb.png"
+      title: "LUKB Key App, Luzerner Kantonalbank AG"
+      skills: 
+        - "Android SDK"
+        - "OneSpan Mobile Security Suite"
+      text: "Maintenance of a native app in which the web app for e-banking runs. The webapp has access to the camera, can call 2FA applications, uses biometrics and has access to the shared preferences."
+    
+    - image_path: "assets/blkb.png"
+      title: "BLKB Key App, Basellandschaftliche Kantonalbank"
+      skills: 
+        - "Android SDK"
+        - "OneSpan Mobile Security Suite"
+      text: "Maintenance and feature implementation of an onboarding and second factor app for the BLKB ebanking application."
+
+    - image_path: "assets/pushalerts.png"
+      title: "Push Alerts Prototype, Schindler Aufzüge AG"
+      skills: 
+        - "Android SDK"
+        - "Material Design"
+        - "Figma"
+        - ".NET"
+        - "Entity Framework"
+        - "Firebase"
+        - "Testing"
+      text: "Planning, design, implementation & documentation of a software prototype system to complete urgent tasks more efficiently in a team."
+
+    - image_path: "assets/bollie.png"
+      title: "Bol.com Retailer App, Bollie.nl"
+      skills: 
+        - "iOS"
+        - "SwiftUI"
+        - "Android SDK"
+        - "Firebase"
+      text: "Planning and implementation of mobile Apps for Bol.com retailers to display orders, sales, offered products and e-learning videos."
+
+    - image_path: "assets/itsec.jpg"
+      title: "Analysis of certificate management, Schindler Aufzüge AG"
+      skills: 
+        - "SSH"
+        - "PKI"
+        - "Grafana"
+        - "Prometheus"
+        - "Gravitational Teleport"
+        - "HashiCorp Vault"
+      text: "Analysis and pitching of several certificate management tools and how to implement them for improved access management in the existing cloud infrastructure."
+
+    - image_path: "assets/schindler.png"
+      title: "Internal full-stack web application, Schindler Aufzüge AG"
+      skills: 
+        - "Angular"
+        - "SemanticUI"
+        - ".NET Core"
+        - "Entity Framework"
+      text: "Planning, design and implementation of an internal knowledge database website."
+
+    - image_path: "assets/eenet.png"
+      title: "Elevator Visualisation System, Schindler Aufzüge AG"
+      skills: 
+        - "Python"
+        - "HTML"
+        - "JavaScript"
+        - "CSS"
+        - "Bootstrap"
+      text: "Planning, design, implementation and integration of a software for the visualisation of elevators on a campus."
 career:
   title: "Career"
   career:
-    - label: "Today"
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
+    - label: "2024"
+      text: "Next to doing maintenance, bugfixing and new features for many Android apps, I developed an interest in IT security and started learning and teaching about Android app hacking. Also, I instructed several app development courses for kids using Thunkable & Scratch."
     - label: "2023"
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
+      text: "This was the year where I took a huge leap as an Android developer. I joined several Android app projects, lead features and learned much about the Android SDK, handling clients, tight deadlines, and challenging coding problems."
     - label: "2022"
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
+      text: "This was yet another amazing year. I took a minor in mobile development at the Amsterdam University for Applied Sciences and learned much about Android development & designing mobile apps. To finish off my studies, I took a course to learn about logical and function programming paradigms, learned about software architecture and successfully finished my bachelor thesis 'Push Alerts' prototype system for Schindler with the best grade possible. All that led me to starting a job at ti&m AG as a software engineer in Android."
     - label: "2021"
-      text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Labore et dolore magna aliquyam erat, sed diam voluptua."
+      text: "University was fun and interesting, but lacked practical experience. Thats why I joined Schindler Elevator Ltd. again, this time in the DevOps team to analyse the existing certificate management and pitch implementation of tools such as Gravitational Teleport, Grafana, Prometheus and HashiCorp Vault for a proper public key."
+    - label: "2020"
+      text: "Next to improving my coding skills, the university taught me about analysis, discrete mathematics, cryptography, cloud services, IT operation, game development, mobile development, project management & requirement engineering, distributed systems, machine learning, computer vision, statistics, functional & logical paradigms, Spanish and much more..."
+    - label: "2019"
+      text: "This was my most exciting year for my career so far. After finishing my work at Schindler early in 2019, I travelled to Thailand to become a bartender, joined a school in Galway, Ireland to become proficient in English and started my bachelor's degree in computer science at the Lucerne University of Applied Sciences for Information Technology."
+    - label: "2018"
+      text: "Since the military service is still mandatory in Switzerland, I had to serve for almost 5 months. Besides the basic training, I learned much about networking, cryptography and communication. After that, I joined Schindler Elevators Ltd. again to modernize and build from scratch an outdated internal wiki website with several tools for the elevator controller teams."
+    - label: "2015-17"
+      text: "During four years of apprenticeship I learned the theory and practice to becoming an electrical engineer (swiss EFZ) at Schindler Elevators Ltd. It was a mix of theory in school (2 days/week) and practical experience at work (3 days/week). The core competencies were processing electronic manufacturing orders according to specifications, wiring of electronic components according to a schematic; creating technical documentation; conducting and participating in projects. Furthermore, I specialized in software engineering and co-developed web and server applications using HTML, CSS, JavaScript, Angular, C#, WPF, Python, SQL and Linux-based systems. As a final project, I co-developed a product that visualizes elevator information and digital media on a display in the elevator cabin."

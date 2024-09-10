@@ -5,5 +5,7 @@ export class Projects {
 
 export class Project {
     image_path: string = ""
+    title: String = ""
+    skills: String = ""
     text: string = ""
 }

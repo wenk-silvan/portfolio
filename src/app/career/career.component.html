@@ -5,10 +5,10 @@
             <div class="md:w-1/6 flex flex-col items-center">
                 <div class="font-title text-xl pb-4 md:pb-0">{{ entry.label }}</div>
                 @if (idx < data.career.length - 1) {
-                    <div class="hidden md:block my-4 border-l-2 h-20 border-dashed border-white"></div>
+                    <div class="hidden md:flex flex-grow my-4 border-l-2 border-dashed border-white"></div>
                 }
             </div>
-            <div class="md:w-5/6 pb-8 md:ps-8 text-xl">{{ entry.text }}</div>
+            <div class="md:w-5/6 pb-8 md:ps-8 text-xl text-justify">{{ entry.text }}</div>
         </div>
     }
 </div>
