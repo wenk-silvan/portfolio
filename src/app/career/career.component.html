@@ -10,5 +10,7 @@
             </div>
             <div class="md:w-5/6 pb-8 md:ps-8 text-xl text-justify">{{ entry.text }}</div>
         </div>
+    } @empty {
+        <div>Loading...</div>
     }
 </div>
