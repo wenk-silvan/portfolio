@@ -12,6 +12,15 @@ introduction:
 projects:
   title: Projects
   projects: 
+    - image_path: "assets/migrolino.png"
+      title: "Migrolino App"
+      skills: 
+        - "Android SDK"
+        - "MLKit"
+        - "Maps SDK"
+        - "Firebase"
+      text: "Implementation and maintenance of the migrolino App, where users can collect stamps for discount cards, play minigames and redeem vouchers in the shops."
+      
     - image_path: "assets/helsana.png"
       title: "Helsana+ Bonus Programme, Helsana Versicherungen"
       skills: 
