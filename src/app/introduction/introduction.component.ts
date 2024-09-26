@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
 import { Introduction } from './introduction.model';
-import { AppData } from '../app-data.model';
 
 @Component({
   selector: 'introduction',
