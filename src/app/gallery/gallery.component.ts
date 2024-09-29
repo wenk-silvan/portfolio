@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ApiService } from '../api.service';
-import { Gallery } from '../photography/photography.model';
+import { Gallery } from '../home/photography/photography.model';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 
 @Component({

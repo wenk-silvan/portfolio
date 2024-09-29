@@ -1,4 +1,4 @@
-import { Blog } from "../blog/blog.model"
+import { Blog } from "../../blog/blog.model"
 
 export class Blogs {
     title: string = ""
