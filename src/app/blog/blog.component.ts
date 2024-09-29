@@ -1,17 +1,18 @@
 import { Component } from '@angular/core';
-import { ApiService } from '../api.service';
-import { Gallery } from '../photography/photography.model';
+import { Blog } from './blog.model';
 import { ActivatedRoute, RouterLink } from '@angular/router';
+import { ApiService } from '../api.service';
+import { MarkdownModule } from 'ngx-markdown';
 
 @Component({
-  selector: 'gallery',
+  selector: 'blog',
   standalone: true,
-  imports: [RouterLink],
-  templateUrl: './gallery.component.html',
-  styleUrl: './gallery.component.css'
+  imports: [RouterLink, MarkdownModule],
+  templateUrl: './blog.component.html',
+  styleUrl: './blog.component.css'
 })
-export class GalleryComponent {
-  public data: Gallery = new Gallery()
+export class BlogComponent {
+  public data: Blog = new Blog()
   public link_back: string = ""
  
   constructor(
@@ -22,7 +23,7 @@ export class GalleryComponent {
   ngOnInit(): void {
     let index = this.route.snapshot.paramMap.get('id');
     this.apiService.getData().subscribe(result => {
-      this.data = result.photography.galleries[Number(index)]
+      this.data = result.blogs.blogs[Number(index)]
       this.link_back = result.link_back_text
     });
   }

@@ -1,5 +1,6 @@
 %YAML 1.2
 ---
+link_back_text: "Back"
 introduction:
   title: "Hi!\nI'm Silvan"
   icons:
@@ -147,7 +148,6 @@ career:
 photography:
   title: "Photography"
   link_text: "See more"
-  link_back_text: "Back"
   galleries:
     - title: "Amsterdam by Day & Night"
       description: "This collection shows the city of Amsterdam and was captured during my exchange semester in 2021/2022. Every single one of these photos awakens a story in my memories of this beautiful time."
@@ -265,3 +265,13 @@ photography:
         - "assets/photography/thailand/13.jpg"
         - "assets/photography/thailand/14.jpg"
         - "assets/photography/thailand/15.jpg"
+blogs:
+  title: "Blogs"
+  label_read_more: "Read more"
+  blogs:
+    - title: "A Simple Guide to Build a Website Using Angular, TailwindCSS, ExpressJS and Firebase"
+      date: "September 28th, 2024"
+      author: "GPT-4"
+      image_path: "assets/blogs/build-website/coding.jpg"
+      lead: "Let's get real for a second: building websites used to sound like rocket science, right? Like, you needed some kind of secret degree in 'I-Can-Write-Magic-Code' to put a couple of pages online. But, in today's world, it's so much easier than ever before!"
+      md_path: 'assets/blogs/build-website/blog.md'
