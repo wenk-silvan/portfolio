@@ -7,7 +7,7 @@ const cors = require("cors")
 const app = express()
 
 const corsOptions = {
-    origin: "https://wenk-portfolio.web.app",
+    origin: ["https://wenk-portfolio.web.app", "https://silvan-wenk.com"],
     methods: ["GET", "POST", "OPTIONS"], 
     allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"],
     credentials: true

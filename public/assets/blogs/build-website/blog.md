@@ -152,3 +152,5 @@ So, there you have it. Creating a modern website isn’t as terrifying as it sou
 Now, go forth and build something awesome! And remember, coding isn’t about being perfect; it’s about having fun, breaking things, fixing them, and enjoying the journey. 👩‍💻👨‍💻
 
 Cheers to your new website-building superpowers! 🥳
+
+*Note from Silvan: Thanks GPT for generating this blog post. And to all readers, I'm sorry for the ackward jokes, I guess AI has other qualities where it shines.*
