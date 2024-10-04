@@ -136,7 +136,7 @@ career:
     - label: "2022"
       text: "This was yet another amazing year. I took a minor in mobile development at the Amsterdam University for Applied Sciences and learned much about Android development & designing mobile apps. To finish off my studies, I took a course to learn about logical and function programming paradigms, learned about software architecture and successfully finished my bachelor thesis 'Push Alerts' prototype system for Schindler with the best grade possible. All that led me to starting a job at ti&m AG as a software engineer in Android."
     - label: "2021"
-      text: "University was fun and interesting, but lacked practical experience. Thats why I joined Schindler Elevator Ltd. again, this time in the DevOps team to analyse the existing certificate management and pitch implementation of tools such as Gravitational Teleport, Grafana, Prometheus and HashiCorp Vault for a proper public key."
+      text: "University was fun and interesting, but lacked practical experience. Thats why I joined Schindler Elevator Ltd. again, this time in the DevOps team to analyse the existing certificate management and pitch implementation of tools such as Gravitational Teleport, Grafana, Prometheus and HashiCorp Vault for a proper public key infrastructure."
     - label: "2020"
       text: "Next to improving my coding skills, the university taught me about analysis, discrete mathematics, cryptography, cloud services, IT operation, game development, mobile development, project management & requirement engineering, distributed systems, machine learning, computer vision, statistics, functional & logical paradigms, Spanish and much more..."
     - label: "2019"
