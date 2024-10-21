@@ -1,14 +1,14 @@
 <div class="container max-w-3xl mx-auto flex flex-col">
-    <div class="font-title text-5xl pb-12 self-center">{{ data.title }}</div>
-    @for (blog of data.blogs; track blog; let idx = $index, e = $even) {
+    <div class="font-title text-5xl pb-12 self-center">Blogs</div>
+    @for (blog of (blogs$ | async); track blog; let e = $even, last = $last) {
         <div class="text-base sm:text-lg font-bold mb-4">{{ blog.title }}</div>
         <div class="flex flex-row mb-2 font-title">
             <div class="italic">{{ blog.date }} by</div>
             <div class="ms-1 uppercase">{{ blog.author }}</div>
         </div>
         <div class="text-xl mb-2">{{ blog.lead }}</div>
-        <a [routerLink]="['/blog', idx]" class="text-sm cursor-pointer underline self-end hover:italic">{{ data.label_read_more }}</a>
-        @if (idx < data.blogs.length - 1) {
+        <a [routerLink]="['/blog', blog.id]" class="text-sm cursor-pointer underline self-end hover:italic">Read more</a>
+        @if (!last) {
             <div class="mb-8"></div>
         }
     } @empty {

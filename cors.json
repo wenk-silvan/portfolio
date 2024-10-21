@@ -1,0 +1,7 @@
+[
+    {
+      "origin": ["https://silvan-wenk.com", "http://localhost:4200"],
+      "method": ["GET"],
+      "maxAgeSeconds": 3600
+    }
+  ]

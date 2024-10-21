@@ -1,8 +1,10 @@
-<div class="relative group h-screen w-screen font-text bg-darkblue">
-    <div class="grid grid-cols-1 justify-items-center items-center 2xl:grid-cols-2 gap-4 bg-darkblue">
-        @for (path of data.image_paths; track path; let idx = $index) {
-            <img class="max-h-screen max-w-screen" src="{{ path }}" alt="Photo">
-        }
-    </div>
-    <button routerLink="/home" class="fixed left-1/2 p-2 bg-darkblue bg-opacity-90 rounded-xl border-white border-2 text-white uppercase text-sm bottom-8 hover:bg-white hover:text-darkblue">{{ link_back }}</button>
-</div>
+@if (gallery$ | async; as gallery) {
+    <div class="relative group h-screen w-screen font-text bg-darkblue">
+        <div class="grid grid-cols-1 justify-items-center items-center 2xl:grid-cols-2 gap-4 bg-darkblue">
+            @for (path of gallery.image_paths; track path; let idx = $index) {
+                <img class="max-h-screen max-w-screen" src="{{ path }}" alt="Photo">
+            }
+        </div>
+        <button routerLink="/home" class="fixed left-1/2 p-2 bg-darkblue bg-opacity-90 rounded-xl border-white border-2 text-white uppercase text-sm bottom-8 hover:bg-white hover:text-darkblue">Back</button>
+    </div>   
+}

@@ -1,6 +1,7 @@
 export class Introduction {
-    title: string = ""
-    portrait_path: string = ""
-    icons: string[] = []
-    description: string = ""
+    constructor(
+        public portrait_path: string = "",
+        public icons: string[] = [],
+        public description: string = ""
+    ) {}
 }

@@ -1,9 +1,9 @@
 <div class="container max-w-3xl mx-auto flex flex-col">
-    <div class="font-title text-5xl pb-12 self-center">{{ data.title }}</div>
-    @for (gallery of data.galleries; track gallery; let idx = $index) {
-        <div [ngClass]="{ 'mb-8': idx != data.galleries.length - 1 }" class="relative group self-center">
+    <div class="font-title text-5xl pb-12 self-center">Photography</div>
+    @for (gallery of (galleries$ | async); track gallery; let last = $last) {
+        <div [ngClass]="{ 'mb-8': !last }" class="relative group self-center">
             <img class="object-contain border-2 border-lightblue" src="{{ gallery.thumbnail_path }}" alt="Company">
-            <a [routerLink]="['/gallery', idx]" class="flex flex-col absolute inset-0 cursor-pointer bg-black bg-opacity-50 justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <a [routerLink]="['/gallery', gallery.id]" class="flex flex-col absolute inset-0 cursor-pointer bg-black bg-opacity-50 justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div class="font-title text-xl mb-8">{{ gallery.title }}</div>
                 <div class="max-w-sm md:max-w-xl text-xs sm:text-lg p-4">{{ gallery.description }}</div>
             </a>
