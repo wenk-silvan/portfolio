@@ -13,7 +13,6 @@ import { MarkdownModule } from 'ngx-markdown';
 })
 export class BlogComponent {
   public data: Blog = new Blog()
-  public link_back: string = ""
  
   constructor(
     private route: ActivatedRoute,
@@ -24,7 +23,6 @@ export class BlogComponent {
     let index = this.route.snapshot.paramMap.get('id');
     this.apiService.getData().subscribe(result => {
       this.data = result.blogs.blogs[Number(index)]
-      this.link_back = result.link_back_text
     });
   }
 }

@@ -7,7 +7,7 @@
             <div class="ms-1 uppercase">{{ blog.author }}</div>
         </div>
         <div class="text-xl mb-2">{{ blog.lead }}</div>
-        <a [routerLink]="['/blog', idx]" class="text-sm cursor-pointer underline self-end hover:italic">{{ data.label_read_more }}</a>
+        <a [routerLink]="['/blog', idx]" class="text-sm cursor-pointer underline self-end hover:italic">Read more</a>
         @if (idx < data.blogs.length - 1) {
             <div class="mb-8"></div>
         }

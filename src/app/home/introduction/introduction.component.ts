@@ -1,4 +1,4 @@
-import { Component, inject, Input } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { Introduction } from './introduction.model';
 import { map, Observable } from 'rxjs';
 import { Firestore, doc, docData } from '@angular/fire/firestore';

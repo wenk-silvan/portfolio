@@ -1,12 +1,9 @@
-export class Photography {
-    title: string = ""
-    galleries: Gallery[] = []
-    link_text: string = ""
-}
-
 export class Gallery {
-    title: string = ""
-    description: string = ""
-    thumbnail_path: string = ""
-    image_paths: string[] = []
+    constructor(
+        public id: string = "",
+        public title: string = "",
+        public description: string = "",
+        public thumbnail_path: string = "",
+        public image_paths: string[] = []
+    ) {}
 }
