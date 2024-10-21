@@ -1,8 +1,11 @@
 export class Blog {
-    title: string = ""
-    date: string = ""
-    author: string = ""
-    image_path: string = ""
-    lead: string = ""
-    md_path: string = ""
+    constructor(    
+        public id: string = "",
+        public title: string = "",
+        public date: string = "",
+        public author: string = "",
+        public image_path: string = "",
+        public lead: string = "",
+        public md_path: string = ""
+    ) {}
 }
