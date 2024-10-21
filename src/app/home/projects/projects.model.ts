@@ -1,11 +1,9 @@
-export class Projects {
-    title: string = ""
-    projects: Project[] = []
-}
-
 export class Project {
-    image_path: string = ""
-    title: String = ""
-    skills: String = ""
-    text: string = ""
+    constructor(
+        public image_path: string = "",
+        public title: String = "",
+        public skills: String = "",
+        public text: string = "",
+        public index: number = 0
+    ) {}
 }
