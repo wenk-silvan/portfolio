@@ -16,14 +16,5 @@
         "destination": "/index.html"
       }
     ]
-  },
-  "storage": {
-    "cors": [
-      {
-        "origin": ["http://localhost:4200", "https://silvan-wenk.com"],
-        "method": ["GET"],
-        "maxAgeSeconds": 3600
-      }
-    ]
   }
 }
