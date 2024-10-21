@@ -1,15 +1,6 @@
 %YAML 1.2
 ---
 link_back_text: "Back"
-introduction:
-  title: "Hi!\nI'm Silvan"
-  icons:
-    - "assets/introduction/android.svg"
-    - "assets/introduction/kotlin.svg"
-    - "assets/introduction/angular.svg"
-    - "assets/introduction/dotnet.svg"
-  portrait_path: "assets/introduction/portrait.jpg"
-  description: "Welcome to my website, here are some facts about me. As an experienced Android developer, I love taking on challenges and exploring new things. I believe in the power of teamwork and diversity, both in my work and personal life. Feedback is a chance to learn and grow, and I'm always eager to expand my skills, not only as an engineer. Through over 6 years of writing software in finance, healthcare, mobility, and digital identification, I gained valuable experience that led me to becoming a proficient developer. If you are interested in doing business, please reach out to me - I'm ready to bring my expertise and passion to your team."
 projects:
   title: Projects
   projects: 
