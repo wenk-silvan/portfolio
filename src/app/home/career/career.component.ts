@@ -28,5 +28,4 @@ export class CareerComponent {
     this.career$ = collectionData(careerCollection).pipe(
       map(career => career.sort((a, b) => b.label.localeCompare(a.label)) ?? []));
   }
-
 }
