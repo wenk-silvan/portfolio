@@ -67,6 +67,16 @@
         overflow-wrap: break-word;
         width: 100%;
     }
+    th, td {
+        border: 1px solid;
+        padding: 0.35rem
+    }
+    a {
+        text-decoration: underline;
+    }
+    a:hover {
+        font-style: italic;
+    }
     markdown {
         width: 90%
     }
