@@ -45,8 +45,9 @@
     }
     pre, code {
         background-color: white;
-        padding: 8px;
+        padding: 2px;
         color: #033F63;
+        overflow: scroll;
     }
     pre > code {
         padding: 0px;
@@ -78,6 +79,7 @@
         font-style: italic;
     }
     markdown {
-        width: 90%
+        width: 90%;
+        scrollbar-width: none;
     }
 }

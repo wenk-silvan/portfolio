@@ -7,7 +7,7 @@
                 <div class="italic">{{ blog.date }} by</div>
                 <div class="ms-1 uppercase">{{ blog.author }}</div>
             </div>
-            <markdown class="text-justify"[src]="blog.md_path" />
+            <markdown class="overflow-scroll" [src]="blog.md_path" />
             <button routerLink="/home" class="p-2 bg-darkblue rounded-xl border-white border-2 text-white uppercase text-sm hover:bg-white hover:text-darkblue">Back</button>
         </div>
     </div>
